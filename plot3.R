@@ -2,7 +2,7 @@
 # Coursera - Exploratory Data Analysis
 
 # Get the full dataset
-energyFile <- file("~/Desktop/Coursera Data Science Track/Exploratory Data Analysis/Project 1/household_power_consumption.txt")
+energyFile <- file("household_power_consumption.txt")
 
 fullData <- read.csv(energyFile, header = T, sep = ';', 
                      na.strings = "?", nrows = 2075259, check.names = F, 
